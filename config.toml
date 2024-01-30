@@ -1,0 +1,41 @@
+baseURL = "https://leonardovee.dev/"
+languageCode = "en-us"
+theme = "smigle"
+title = "leonardovee.dev"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 3
+
+[params]
+abbrDateFmt = "Jan 2"
+author = "Leonardo Vieira"
+dateFmt = "2006-01-02"
+subtitle = "Software Engineer, currently learning to write stuff"
+
+  [[params.social]]
+  name = "GitHub"
+  url = "https://github.com/leonardovee"
+
+  [[params.social]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/leonardovee/"
+
+  [[params.social]]
+  name = "Twitter"
+  url = "https://twitter.com/leonardovees"
+
