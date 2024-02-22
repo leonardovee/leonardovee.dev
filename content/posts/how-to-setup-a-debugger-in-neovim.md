@@ -42,13 +42,7 @@ We'll be going over this installation stuff in a bit, but before that we need to
 
 In simple terms, we'll be using a bunch of apis to have a fancy debugger, the flow off the stuff is something like this:
 
-```mermaid
-graph LR;
-    Neovim-->DAP;
-    DAP-->Neovim;
-    DAP-->Delve;
-    Delve-->DAP;
-```
+![](/images/fc46841e-fe29-446d-b29f-d564eac96adc.png)
 
 What the well is DAP? DAP is the Debug Adapter Protocol, it's a protocol that allows the communication between a debugger and a client, in this case, the debugger is Delve and the client is Neovim.
 
