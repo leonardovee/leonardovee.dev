@@ -1,8 +1,8 @@
 ---
 title: How to setup a debugger in Neovim 
-subtitle: 
+subtitle: Configuring a debugger for the Go programming language on Neovim
 date: 2024-02-22
-description: 
+description: In this post I'll show how can we setup a debbuger for the Go programming language on the Neovim text editor.
 tags:
   - programming 
   - neovim
